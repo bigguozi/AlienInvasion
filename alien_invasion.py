@@ -23,6 +23,13 @@ def run_game():
     start_button      = Button(screen.get_rect().centerx,screen.get_rect().centery,screen,"Start Game")
     pause_button= Button(0,80,screen,"Pause")
     
+    
+    
+    
+    
+    #
+    #
+    #
     while not active :
         screen.fill(ai_settings.bg_color)
         start_button.draw_button()
